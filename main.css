@@ -56,16 +56,21 @@ body div, img {
 }
 
 .container img {
-    width: 100%;
+    width: 99%;
+    align-items: center;
     opacity: 1;
     transition: 3s;
 }
 
-.container img:hover {
+.container .Closes:hover {
     opacity: 0.4;
     transition: 2s;
 }
 
+.container h1:hover .Closes {
+    opacity: 0.4;
+    transition: 2s;
+}
 
 .container .text {
     position: absolute;
@@ -80,15 +85,6 @@ body div, img {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.container .text:hover {
-    opacity: 0.4;
-    transition: 2s;
-    color: #E6E8E6;
-    text-shadow: 1px 1px  #191919;
-
-
 }
 
 
@@ -132,8 +128,8 @@ body div, img {
     flex-direction: row;
 }
 
-.bignt_box img {
-    height: 70%;
+.bignt_box img, .bignt_box_to img {
+    height: 80vh;
 }
 
 
@@ -151,13 +147,23 @@ body div, img {
 }
 
 
+footer .er_box {
+    flex-direction: column;
+    align-items: normal;
+
+}
+
+footer .er_box .long {
+justify-content: space-between
+}
+
 
 
 
 .katalogs_liels {
-  display: grid;
-  grid-template-columns: repeat(4, 25%);
-  grid-template-rows: repeat(4, 1fr);
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(4, 1fr);
 }
 
 .bignt_box_to {
@@ -168,12 +174,67 @@ body div, img {
 
 .navbar {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
     padding: 20px;
     gap: 35px;
 
     background-color:#3A6EA5;
     color: #191919;
     border-radius: 15px;
+    align-items: center;
+}
+
+.navbar .texi {
+    color: #191919;
+}
+
+
+.search_bar {
+    max-height: min-content;
+}
+
+
+.conttendo {
+    margin-top: 0;
+    right: 58px;
+}
+
+.Dropdown {
+    display: inline-block;
+}
+
+.Dropdown button{
+    background-color: #E6E8E6;
+    color: #191919;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.Dropdown a {
+    display: block;
+    color: #191919;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.Dropdown .conttendo {
+    display: none;
+    position: absolute;
+    background-color: #E6E8E6;
+    min-width: 200px;
+    box-shadow: 2px 2px 5px #191919;
+}
+
+.Dropdown:hover .conttendo {
+    display: block;
+}
+
+.Dropdown:hover button {
+    background-color:  #E6E8E6;
+}
+
+.Dropdown a:hover {
+    background-color:  #E6E8E6;
 }
