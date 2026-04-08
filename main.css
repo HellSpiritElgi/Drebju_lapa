@@ -143,7 +143,7 @@ body div, img {
 }
 
 .katalogs .bignt_box {
-width: 24%;
+    width: 24%;
 }
 
 .long{
@@ -177,7 +177,7 @@ footer .er_box {
 }
 
 footer .er_box .long {
-justify-content: space-between
+    justify-content: space-between
 }
 
 
