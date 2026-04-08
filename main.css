@@ -57,6 +57,7 @@ body div, img {
 
 .container img {
     width: 99%;
+    height: 1100px;
     align-items: center;
     opacity: 1;
     transition: 3s;
@@ -78,7 +79,7 @@ body div, img {
     top: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-size: 24px;
+    font-size: 36px;
     text-shadow: 1px 1px #E6E8E6;
     color: #191919;
 
@@ -89,7 +90,7 @@ body div, img {
 
 
 .container .text h1 {
-    font-size: 64px;
+    font-size: 128px;
 }
 
 .container .text .button_box {
@@ -120,7 +121,21 @@ body div, img {
     display: flex;
     flex-direction: column;
     background-color: #BB7E8C;
-    width: 24%;
+    margin: 25px;
+}
+
+.big_box .neimore {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 50px;
+}
+
+#GLAP {
+    margin-top: 40px;
+}
+
+.katalogs .bignt_box {
+width: 24%;
 }
 
 .long{
@@ -129,7 +144,7 @@ body div, img {
 }
 
 .bignt_box img, .bignt_box_to img {
-    height: 80vh;
+    height: 30vh;
 }
 
 
@@ -163,7 +178,7 @@ justify-content: space-between
 .katalogs_liels {
     display: grid;
     grid-template-columns: repeat(4, 25%);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
 }
 
 .bignt_box_to {
@@ -210,6 +225,9 @@ justify-content: space-between
     padding: 10px 15px;
     border: none;
     cursor: pointer;
+    width: 180px;
+    height: 60px;
+    border-radius: 5px;
 }
 
 .Dropdown a {
@@ -237,4 +255,25 @@ justify-content: space-between
 
 .Dropdown a:hover {
     background-color:  #E6E8E6;
+}
+
+.sirch {
+    width: 1300px;
+    height: 60px;
+    border-radius: 5px;
+    margin-right: 0;
+    padding-left: 20px;
+}
+
+.sirch_glas {
+    width: 120px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 0;
+}
+
+.neimore{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 48;
 }
