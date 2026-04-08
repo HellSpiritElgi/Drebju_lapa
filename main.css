@@ -42,7 +42,12 @@ body div, img {
 }
 
 .er_box h2:hover {
-    transform: scale (1.2)
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+.er_box .second {
+    padding-right: 100px;
 }
 
 
