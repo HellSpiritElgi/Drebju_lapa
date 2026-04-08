@@ -41,6 +41,9 @@ body div, img {
     font-weight: bold;
 }
 
+.er_box h2:hover {
+    transform:scale1.2
+}
 
 
 .container {
